@@ -1,0 +1,40 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+    //   for (int i=0; i<3; i++){
+    //         license();
+    //     }
+         license();
+       
+     }
+     public static void license(){
+         String name = "Mufasa";
+         int age = 15;
+         int i=0;
+        
+        //  if(18 <= age){
+        //      System.out.println("Congrats " + name + " you earn driving license" );
+        //  }
+        //  else if(age < 18){
+        //      System.out.println("sorry " + name + " no driving license for you");
+        //  }
+        if(18 <= age)
+        {
+            do{
+            System.out.println("Congrats " + name + " you earn driving license" );
+            i++;
+            }
+            while ( i < 3);
+        }
+        else if(age < 18)
+        {
+            do{
+            System.out.println("sorry " + name + " no driving license for you");
+            i++;
+            }
+            while ( i < 3);
+        }
+        
+        
+     }
+}
